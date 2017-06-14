@@ -1,0 +1,58 @@
+html{
+  background-color: black;
+}
+body{
+  font-family: "Josefin Sans", "Noto Serif", "Dancing Script", sans-serif;
+  font-weight: lighter;
+  background-color: white;
+  margin-top: 0;
+
+}
+
+h1{
+  opacity: .8;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.character div{
+  margin-bottom: 5px;
+}
+
+.customers{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.character{
+  flex: 1 1 23%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.name{
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-transform: uppercase;
+}
+.email{
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  opacity: .2;
+}
+
+.street{
+  opacity: .5;
+}
+.city{
+  opacity: .5;
+}
+.phone{
+  opacity: .5;
+}
